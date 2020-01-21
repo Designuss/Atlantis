@@ -1,0 +1,30 @@
+a{
+	text-decoration: none;
+}
+body{
+	margin: 0;
+}
+
+/*Header*/
+.sidebar{
+	display: flex;
+	list-style: none;
+    justify-content: center;
+    padding-left: 0;
+}
+.sidebar li{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.sidebar li a{
+	color: #aaa;
+	font-size: 16px;
+	font-family: 'Montserrat-Regular';
+	cursor: pointer;
+}
+.border1{
+	border: solid 2px #aaa;
+	background-color: #a66;
+}
+.logo{
+}
