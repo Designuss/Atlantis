@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  .about_us_calc{
+    flex-wrap: wrap;
+  }
+  .about_calc_box {
+    width: 50%;
+  }
+  .about_calc_box:last-child{
+    border-right: 1px solid #b0b0b0;
+  }
+}
