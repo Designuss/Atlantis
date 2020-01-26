@@ -45,7 +45,7 @@
 
     .slider__control_show {
       display: flex;
-      margin: 0 300px;
+      margin: 0 20px;
     }
 
     .slider__control:hover,
