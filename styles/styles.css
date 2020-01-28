@@ -25,6 +25,7 @@ footer{
 	text-transform: uppercase;
 	display: flex;
 	align-items: center;
+	margin-left: 150px;
 }
 .hat_logo a{
 	letter-spacing: 2px;
@@ -50,6 +51,7 @@ footer{
 	display: flex;
 	flex-direction: row;
 	list-style: none;
+	margin-right: 150px;
 }
 /*Header END*/
 /*-------------*/
@@ -135,4 +137,33 @@ footer{
 }
 .about_calc_box:last-child{
 	border: none;
+}
+/*About US end*/
+/*Services start*/
+.services_wrap{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url(../img/services_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+}
+.services_wrap h3{
+	font-family: 'Amsdam-Regular';
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding-top: 70px;
+	padding-bottom: 27px;
+}
+.services_description{
+	padding-top: 40px;
+	padding-right: 250px;
+	padding-left: 250px;
+	font-family: 'CrimsonText-Roman';
+	font-size: 13px;
+	letter-spacing: 2px;
+	color: #cfcfcf;
 }
