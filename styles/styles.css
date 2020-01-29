@@ -84,8 +84,8 @@ footer{
 .about_us_description{
 	display: flex;
 	padding-top: 40px;
-	padding-left: 30px;
-	padding-right: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
 	letter-spacing: 1px;
     line-height: 28px;
     color: #3e3d3d;
@@ -104,7 +104,7 @@ footer{
 	background-size: cover;
 	background-image: url(../img/about_us_img.png);
 }
-.about_us_calc{
+.about_us_calc-wrap{
 	margin: 0 auto;
 	width: 80%;
 	display: flex;
@@ -124,6 +124,7 @@ footer{
 	font-weight: bold;
 	color: #3e3d3d;
 	box-sizing: border-box;
+    margin-bottom: 65px;
 }
 .about_calc_box p{
 	font-size: 13px;
@@ -131,7 +132,6 @@ footer{
 }
 .about_calc_box span{
 	font-size: 45px;
-	padding-bottom: 75px;
 }
 .about_calc_box:last-child{
 	border: none;
@@ -158,8 +158,62 @@ footer{
 }
 .services_description{
 	padding-top: 40px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
 	font-family: 'CrimsonText-Roman';
 	font-size: 13px;
 	letter-spacing: 2px;
 	color: #cfcfcf;
+}
+.services_boxes-wrap{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+}
+.services_box{
+	width: 20%;
+	border: solid 1px #898989;
+	color: #cfcfcf;
+	box-sizing: border-box;
+	/*max-height: 350px;*/
+	margin-bottom: 85px;
+}
+.services_box p{
+	font-size: 13px;
+	font-family: 'Montserrat-Regular';
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.services_box span{
+	font-size: 14px;
+	font-family: 'CrimsonText-Roman';
+	padding-right: 24px;
+	padding-left: 24px;
+	padding-bottom: 15px;
+	display: block;
+	letter-spacing: 1px;
+}
+/*Services end*/
+/*History start*/
+.history_wrap{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.history_wrap h4{
+	text-transform: uppercase;
+	font-family: 'Amsdam-Regular';
+	font-size: 20px;
+	letter-spacing: 2px;
+	padding-top: 58px;
+	padding-bottom: 27px;
+}
+.history-description{
+	font-family: 'CrimsonText-Roman';
+	font-size: 14px;
+	letter-spacing: 2px;
+	padding-top: 37px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
