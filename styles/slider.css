@@ -91,8 +91,6 @@
       display: flex;
       justify-content: center;
       padding-left: 0;
-      margin-right: 15%;
-      margin-left: 15%;
       list-style: none;
       margin-top: 0;
       margin-bottom: 0;
@@ -165,6 +163,9 @@
     }
     .slider__items_description{
       padding-bottom: 24px;
+      font-size: 16px;
+      letter-spacing: 1px;
+      font-family: 'CrimsonText-Roman';
     }
     .slider__item_inner a{
       line-height: 40px;
@@ -176,4 +177,15 @@
       font-weight: bold;
       font-family: 'Montserrat-Regular', 'Arial';
 
+    }
+    .slider-title{
+      background-image: url(../img/white_lines.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .slider-title p{
+      font-size: 35px;
+      font-family: 'Amsdam-Regular';
+      text-transform: uppercase;
+      letter-spacing: 3px;
     }
