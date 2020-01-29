@@ -25,7 +25,7 @@ footer{
 	text-transform: uppercase;
 	display: flex;
 	align-items: center;
-	margin-left: 150px;
+	margin-left: 10px;
 }
 .hat_logo a{
 	letter-spacing: 2px;
@@ -34,13 +34,12 @@ footer{
 }
 .hat_menu{
 	display: flex;
-	flex-direction: row;
 	list-style: none;
 	padding-left: 0;
 }
 .hat_menu li,
 .hat_social li{
-	padding: 0 5px 0 5px;
+	padding: 0 3px 0 3px;
 }
 .hat_menu li a:hover,
 .hat_social li a:hover{
@@ -49,9 +48,8 @@ footer{
 }
 .hat_social{
 	display: flex;
-	flex-direction: row;
 	list-style: none;
-	margin-right: 150px;
+	margin-right: 10px;
 }
 /*Header END*/
 /*-------------*/
