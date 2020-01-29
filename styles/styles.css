@@ -110,6 +110,7 @@ footer{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+    flex-wrap: wrap;
 	padding-top: 36px;
 }
 .about_calc_box{
@@ -169,7 +170,8 @@ footer{
 .services_boxes-wrap{
 	display: flex;
 	justify-content: space-between;
-	width: 80%;
+    flex-wrap: wrap;
+	width: 55%;
 }
 .services_box{
 	width: 20%;
