@@ -23,6 +23,9 @@
 		margin-bottom: 30px;
 		margin-left: 20px;
 	}
+	.our_team_block{
+		width: 30%;
+	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 	.services_boxes-wrap{
@@ -30,6 +33,9 @@
 	}
 	.services_box{
 		width: 24%;
+	}
+	.our_team_block{
+		width: 30%;
 	}
 }
 @media (min-width: 1200px){
@@ -40,5 +46,8 @@
 	}
 	.services_box{
 		width: 20%;
+	}
+	.our_team_block{
+		width: 30%;
 	}
 }
