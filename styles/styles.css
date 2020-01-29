@@ -87,8 +87,9 @@ footer{
 	padding-left: 20px;
 	padding-right: 20px;
 	letter-spacing: 1px;
-    line-height: 28px;
-    color: #3e3d3d;
+	line-height: 28px;
+	color: #3e3d3d;
+	text-align: center;
 }
 .about_us h2{
 	font-size: 20px;
@@ -110,7 +111,7 @@ footer{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-    flex-wrap: wrap;
+	flex-wrap: wrap;
 	padding-top: 36px;
 }
 .about_calc_box{
@@ -125,7 +126,7 @@ footer{
 	font-weight: bold;
 	color: #3e3d3d;
 	box-sizing: border-box;
-    margin-bottom: 65px;
+	margin-bottom: 65px;
 }
 .about_calc_box p{
 	font-size: 13px;
@@ -159,18 +160,19 @@ footer{
 }
 .services_description{
 	padding-top: 40px;
-    padding-bottom: 70px;
-    padding-left: 20px;
-    padding-right: 20px;
+	padding-bottom: 70px;
+	padding-left: 20px;
+	padding-right: 20px;
 	font-family: 'CrimsonText-Roman';
 	font-size: 13px;
 	letter-spacing: 2px;
 	color: #cfcfcf;
+	text-align: center;
 }
 .services_boxes-wrap{
 	display: flex;
 	justify-content: space-between;
-    flex-wrap: wrap;
+	flex-wrap: wrap;
 	width: 55%;
 }
 .services_box{
@@ -203,7 +205,8 @@ footer{
 	flex-direction: column;
 	align-items: center;
 }
-.history_wrap h4{
+.history_wrap h4,
+.our_team_wrap h5{
 	text-transform: uppercase;
 	font-family: 'Amsdam-Regular';
 	font-size: 20px;
@@ -211,11 +214,61 @@ footer{
 	padding-top: 58px;
 	padding-bottom: 27px;
 }
-.history-description{
+.history-description,
+.our_team_description{
 	font-family: 'CrimsonText-Roman';
 	font-size: 14px;
 	letter-spacing: 2px;
 	padding-top: 37px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: center;
 }
+/*History end*/
+/*Our Team start*/
+.our_team_wrap{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-image: url(../img/sky_bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.our_team_blocks{
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-bottom: 70px;
+	padding-top: 55px;
+}
+.our_team_block{
+	width: 30%;
+	text-align: center;
+	position: relative;
+}
+.our_team_block img{
+	width: 100%;
+	height: auto;
+}
+.our_team_block:nth-child(even){
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.our_team_stels_block{
+	margin: 0 auto;
+	width: 95%;
+	height: 95%;
+	position: absolute;
+	display: none;
+	left: 50%;
+	top: 50%;
+	right: 0;
+	bottom: 0;
+  	transform: translate(-50%,-50%);
+    background: rgba(255,255,255, 0.7);
+}
+.our_team_block:hover .our_team_stels_block{
+	display: block;
+}
+/*Our Team end*/
