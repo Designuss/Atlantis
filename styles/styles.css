@@ -206,7 +206,8 @@ footer{
 	align-items: center;
 }
 .history_wrap h4,
-.our_team_wrap h5{
+.our_team_wrap h5,
+.portfolio_wrap h6{
 	text-transform: uppercase;
 	font-family: 'Amsdam-Regular';
 	font-size: 20px;
@@ -287,7 +288,10 @@ footer{
 	padding-left: 4px;
 	padding-right: 4px;
 }
-.stels_description i:nth-child(even){
+.stels_description a{
+	color: #3e3d3d;
+}
+.stels_description a:nth-child(even){
 	border-left: 1px solid #515151;
 	border-right: 1px solid #515151;
 }
@@ -306,3 +310,13 @@ footer{
 	margin-top: 0;
 }
 /*Our Team end*/
+/*Portfolio start*/
+.portfolio_wrap{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.portfolio_wrap p{
+	text-align: center;
+}
+/*Portfolio end*/
