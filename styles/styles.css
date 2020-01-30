@@ -251,6 +251,7 @@ footer{
     margin-bottom: 20px;
 }
 .our_team_block img{
+	display: block;
 	width: 100%;
 	height: auto;
 }
@@ -261,7 +262,7 @@ footer{
 .our_team_stels_block{
 	margin: 0 auto;
 	width: 95%;
-	height: 95%;
+	height: 96%;
 	position: absolute;
 	display: none;
 	left: 50%;
@@ -272,25 +273,27 @@ footer{
     background: rgba(255,255,255, 0.7);
 }
 .our_team_block:hover .our_team_stels_block{
-	display: block;
+	display: flex;
+    align-items: flex-end;
 }
 .stels_description{
-	margin-top: 90%;
 	margin-left: 20px;
+	margin-bottom: 30px;
 	text-align: left;
 	color: #3e3d3d;
 }
-.team_social i{
-	font-size: 20px;
-	padding-left: 5px;
-	border-left: 1px solid #515151;
+.stels_description i{
+	font-size: 18px;
+	padding-left: 4px;
+	padding-right: 4px;
 }
-.team_social i:first-child{
-	border-left: none;
+.stels_description i:nth-child(even){
+	border-left: 1px solid #515151;
+	border-right: 1px solid #515151;
 }
 .team_name{
 	font-weight: bold;
-	margin-bottom: 0;
+	margin: 0;
 	font-family: 'Montserrat-Regular';
 	font-size: 20px;
 }
@@ -299,7 +302,6 @@ footer{
 	font-family: 'CrimsonText-Roman';
 	border-bottom: 2px solid #515151;
 	font-style: italic;
-	margin-right: 60%;
 	line-height: 40px;
 	margin-top: 0;
 }
