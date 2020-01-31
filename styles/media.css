@@ -9,12 +9,35 @@
 	.about_calc_box:nth-child(even){
 		border: none;
 	}
+	.stels_description{
+		margin-bottom: 30px;
+		margin-left: 10px;
+	}
+	.stels_description i{
+		font-size: 16px;
+	}
+	.team_name{
+		font-size: 18px;
+	}
+	.team_position{
+		font-size: 16px;
+		line-height: 30px;
+	}
+	.pf-img img{
+		width: 50%;
+	}
+	.tariff{
+		width: 100%;
+	}
 }
 @media (min-width: 576px) and (max-width: 767px){
 	.services_box{
 		width: 45%;
 		margin-bottom: 25px;
 		margin-right: 12px;
+	}
+	.tariff{
+		width: 47%;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px){
@@ -25,6 +48,9 @@
 	}
 	.our_team_block{
 		width: 30%;
+	}
+	.tariff{
+		width: 47%;
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
