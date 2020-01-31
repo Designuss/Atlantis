@@ -1,7 +1,21 @@
+@media (min-width: 511px) and (max-width: 741px){
+	.portfolio_btns {
+    width: 20%;
+	}
+}
+@media (min-width: 742px) and (max-width: 1200px){
+
+	.portfolio_btns {
+    width: 52%;
+	}
+}
 @media (max-width: 575px) {
 	.services_box{
 		width: 100%;
 		margin-bottom: 30px;
+	}
+	.about_us_btn {
+		width: 50%;
 	}
 	.about_calc_box {
 		width: 50%;
@@ -29,6 +43,12 @@
 	.tariff{
 		width: 100%;
 	}
+	.about_us_btn{
+    	width: 60%;
+	}
+	.about_us_btn a{
+    	margin-bottom: 5px;
+	}
 }
 @media (min-width: 576px) and (max-width: 767px){
 	.services_box{
@@ -39,7 +59,11 @@
 	.tariff{
 		width: 47%;
 	}
+	.about_us_btn{
+    	width: 60%;
+	}
 }
+
 @media (min-width: 768px) and (max-width: 991px){
 	.services_box{
 		width: 45%;
@@ -52,6 +76,9 @@
 	.tariff{
 		width: 47%;
 	}
+	.about_us_btn{
+    	width: 50%;
+	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 	.services_boxes-wrap{
@@ -62,6 +89,16 @@
 	}
 	.our_team_block{
 		width: 30%;
+	}
+	.tariffs{
+    width: 100%;
+	}
+	.price{
+		font-size: 60px;
+		line-height: 80px;
+	}
+	.about_us_btn{
+    	width: 40%;
 	}
 }
 @media (min-width: 1200px){
@@ -75,5 +112,8 @@
 	}
 	.our_team_block{
 		width: 30%;
+	}
+	.portfolio_btns {
+	    width: 33%;
 	}
 }
