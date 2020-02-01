@@ -406,6 +406,64 @@ h4{
 
 }
 /*Prices end*/
+/*Compas label*/
+.compas_label{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #2d2d2f;
+}
+.compas-img{
+	display: block;
+	width: 7%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+.compas-question{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #fff;
+	font-family: 'Montserrat-Regular';
+	font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+.compas-desc{
+	text-align: left;
+	display: block;
+	color: #838383;
+	font-family: 'CrinsonText-Roman';
+	font-style: italic;
+	font-weight: normal;
+}
+.compas_btn{
+	cursor: pointer;
+	background-color: #2d2d2f; 
+	color: #fff;
+	border: solid 2px #fff;
+	display: block;
+    line-height: 44px;
+    padding-right: 22px;
+    padding-left: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+	font-family: 'Montserrat-Regular';
+	font-weight: bold;
+	-webkit-transition: 1s ease-out;	;
+	-o-transition: 1s ease-out;	;
+	transition: 1s ease-out;	;
+}
+.compas_btn:hover{
+	background-color: #fff;
+	color: #2d2d2f; 
+	-webkit-transition: 1s ease-out;	;
+	-o-transition: 1s ease-out;	;
+	transition: 1s ease-out;
+}
+/*compas label end*/
 /*Blog start*/
 .blog_wrap{
 	display: flex;

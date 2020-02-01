@@ -101,6 +101,11 @@
     	width: 40%;
 	}
 }
+@media (max-width: 1200px){
+	.compas-img{
+		display: none;
+	}
+}
 @media (min-width: 1200px){
 	.services_boxes-wrap{
 		width: 65%;
