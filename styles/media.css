@@ -1,8 +1,15 @@
-@media (min-width: 320px) and (max-width: 768px){
+@media (min-width: 576px) and (max-width: 768px){
 	.pf-img img,
 	.blog_gallery img,
 	.blog_gallery div {
 		max-height: 350px;
+}
+}
+@media (min-width: 320px) and (max-width: 575){
+		.pf-img img,
+	.blog_gallery img,
+	.blog_gallery div {
+		max-height: 200px;
 }
 }
 @media (min-width: 511px) and (max-width: 741px){
