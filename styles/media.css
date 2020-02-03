@@ -1,3 +1,10 @@
+@media (min-width: 320px) and (max-width: 768px){
+	.pf-img img,
+	.blog_gallery img,
+	.blog_gallery div {
+		max-height: 350px;
+}
+}
 @media (min-width: 511px) and (max-width: 741px){
 	.portfolio_btns {
 		width: 20%;
