@@ -1,28 +1,4 @@
-@media (min-width: 576px) and (max-width: 768px){
-	.pf-img img,
-	.blog_gallery img,
-	.blog_gallery div {
-		max-height: 350px;
-}
-}
-@media (min-width: 320px) and (max-width: 575){
-		.pf-img img,
-	.blog_gallery img,
-	.blog_gallery div {
-		max-height: 200px;
-}
-}
-@media (min-width: 511px) and (max-width: 741px){
-	.portfolio_btns {
-		width: 20%;
-	}
-}
-@media (min-width: 742px) and (max-width: 1200px){
 
-	.portfolio_btns {
-		width: 52%;
-	}
-}
 @media (max-width: 575px) {
 	.services_box{
 		width: 100%;
@@ -60,6 +36,23 @@
 	.about_us_btn a{
 		margin-bottom: 5px;
 	}
+	.footer-wrap {
+    	width: 90%;
+	}
+	.f-content{
+		flex-direction: column;
+	}
+	.contact-info,
+	.f-content form{
+		width: 100%;
+	}
+	.compas-img{
+		display: none;
+	}
+	.compas-question{
+    	margin-bottom: 20px;
+    	margin-top: 20px;
+	}
 }
 @media (min-width: 576px) and (max-width: 767px){
 	.services_box{
@@ -73,8 +66,39 @@
 	.about_us_btn{
 		width: 60%;
 	}
+	.footer-wrap {
+    	width: 90%;
+	}
+	.f-content{
+		flex-direction: column;
+	}
+	.contact-info,
+	.f-content form{
+		width: 100%;
+	}
+	.compas-img{
+		display: none;
+	}
+	.compas-question{
+    	margin-bottom: 20px;
+    	margin-top: 20px;
+	}
 }
-
+@media (max-width: 767px){
+	.pf-img img{
+		width: 50%;
+	}
+	.blog_gallery img,
+	.blog-info{
+		width: 100%;
+	}
+	.blog-info span{
+		width: 80%;
+	}
+	.bl-gall2{
+		display: none;
+	}
+}
 @media (min-width: 768px) and (max-width: 991px){
 	.services_box{
 		width: 45%;
@@ -90,15 +114,25 @@
 	.about_us_btn{
 		width: 50%;
 	}
-}
-@media (max-width: 768px){
-	.pf-img img,
 	.blog_gallery img,
-	.blog_gallery div{
+	.blog-info{
 		width: 50%;
 	}
-	.blog-info:nth-child(-n+2){
-		border-bottom: 2px solid #fff;
+	.footer-wrap {
+    	width: 90%;
+	}
+	.blog-info p{
+		font-size: 19px;
+	}
+	.blog-info h5{
+		font-size: 24px;
+	}
+	.compas-img{
+		display: none;
+	}
+	.compas-question{
+    	margin-bottom: 20px;
+    	margin-top: 20px;
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -121,41 +155,32 @@
 	.about_us_btn{
 		width: 40%;
 	}
-}
-@media (max-width: 1200px){
-	.compas-img{
-		display: none;
+	.blog_gallery img,
+	.blog-info{
+		width: 50%;
 	}
-	.compas-question{
-		margin: 15px 10px 15px 10px;
+	.footer-wrap {
+    	width: 90%;
 	}
-	.blog-info p {
-		font-size: 14px;
-		line-height: 20px;
-		margin-left: 20px;
-		margin-right: 20px;
+	.blog-info p{
+		font-size: 19px;
 	}
-	.blog-info h5 {
-		font-size: 16px;
-		margin: 10px 20px;
-	}
-	.blog-info span {
-		padding-bottom: 8px;
-		margin: 10px 10% 15px;
+	.blog-info h5{
+		font-size: 24px;
 	}
 }
-	@media (min-width: 1200px){
-		.services_boxes-wrap{
-			width: 65%;
-			justify-content: space-evenly;
-		}
-		.services_box{
-			width: 20%;
-		}
-		.our_team_block{
-			width: 30%;
-		}
-		.portfolio_btns {
-			width: 33%;
-		}
+@media (min-width: 1200px){
+	.services_boxes-wrap{
+		width: 65%;
+		justify-content: space-evenly;
 	}
+	.services_box{
+		width: 20%;
+	}
+	.our_team_block{
+		width: 30%;
+	}
+	.portfolio_btns {
+		width: 33%;
+	}
+}

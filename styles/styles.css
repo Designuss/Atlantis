@@ -13,6 +13,11 @@ footer{
 	padding: 0;
 	margin: 0;
 }
+footer{
+	background-image: url(../img/footer-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 h2,h3{
 	text-transform: uppercase;
 	font-family: 'Amsdam-Regular';
@@ -34,6 +39,17 @@ h4{
 	text-align: center;
 	color: #3e3d3dab;
 	margin: 0;
+}
+h6{
+	color: #fff;
+	font-size: 13px;
+	font-family: 'Montserrat-Regular';
+}
+h6 a{
+	color: #fff;
+}
+h6 a:hover{
+	text-decoration: underline;
 }
 /*Header*/
 .hat{
@@ -337,7 +353,7 @@ h4{
 .pf-img img{
 	display: block;
 	width: 25%;
-	max-height: 540px;
+	max-height: 500px;
 }
 
 /*Portfolio end*/
@@ -480,12 +496,11 @@ h4{
 	width: 25%;
 	background-color: #555557;
 	color: #fff;
-	max-height: 540px;
 }
 .blog_gallery img{
 	display: block;
 	width: 25%;
-	max-height: 540px;
+	max-height: 400px;
 }
 .blog-info span{
 	font-style: italic;
@@ -493,22 +508,106 @@ h4{
 	font-family: 'CrimsonText-Roman';
 	display: block;
 	padding-bottom: 8px;
-    margin: 30px 55% 30px 30px;
+    margin: 15px 15px 15px;
+    width: 80%;
 }
 .blog-info h5{
 	letter-spacing: 1px;
 	font-size: 18px;
 	font-weight: bold;
 	font-family: 'Montserrat-Regular';
-	margin-left: 30px;
+	margin: 10px;
 }
 .blog-info p{
 	font-family: 'CrimsonText-Roman';
-	font-size: 18px;
-	line-height: 25px;
+	font-size: 16px;
+	line-height: 20px;
 	letter-spacing: 1px;
 	color: rgba(255, 255, 255, 0.6);
-	margin-left: 30px;
-	margin-right: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 /*Blog end*/
+/*Clients Start*/
+.clients-wrap{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.clients{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 60%;
+	margin: 20px 0 100px;
+}
+.clients img{
+	width: 10%;
+	display: block;
+}
+.map{
+	width: 100%;
+	max-height: 512px;
+}
+/*Clients End*/
+/*footer start*/
+.footer-wrap{
+	width: 60%;
+	margin: 0 auto;
+	align-items: flex-start;
+	flex-direction: column;
+	display: flex;
+	padding: 50px 0 40px;
+}
+.f-logo{
+	font-weight: bold;
+	color: #fff;
+	letter-spacing: 2px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: 'Montserrat-Regular';
+}
+.f-content{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.f-content form{
+	width: 45%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-height: 400px;
+}
+.contact-info{
+	width: 35%;
+	display: flex;
+	flex-direction: column;
+	font-family: 'CrimsonText-Roman';
+	letter-spacing: 1px;
+	color: rgba(255,255,255, 0.5);
+}
+.f-content form input{
+	width: 45%;
+	max-height: 52px;
+	background-color: rgba(255, 255, 255, 0);
+	border: solid 2px #464646;
+	margin-top: 5px;
+    padding-left: 10px;
+    color: #fff;
+}
+.f-content form textarea{
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0);
+	border: solid 2px #464646;
+	margin-top: 5px;
+    padding-left: 10px;
+    color: #fff;
+}
+.submit-btn{
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+/*footer end*/
