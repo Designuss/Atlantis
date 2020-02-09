@@ -55,6 +55,9 @@
 	.f-content form input {
     	width: 40%;
 	}
+	.pf-img img{
+		max-height: 100px;
+	}
 }
 @media (min-width: 576px) and (max-width: 767px){
 	.services_box{
