@@ -96,6 +96,10 @@
 	.bl-gall2{
 		display: none;
 	}
+	.clients{
+    	justify-content: space-around;
+    	width: 100%;
+	}
 }
 @media (min-width: 768px) and (max-width: 991px){
 	.services_box{
@@ -131,6 +135,10 @@
 	.compas-question{
 		margin: 20px 7px;
 	}
+	.clients{
+    	justify-content: space-around;
+    	width: 100%;
+	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 	.services_boxes-wrap{
@@ -164,6 +172,10 @@
 	}
 	.blog-info h5{
 		font-size: 24px;
+	}
+	.clients{
+    	justify-content: space-around;
+    	width: 100%;
 	}
 }
 @media (min-width: 1200px){
