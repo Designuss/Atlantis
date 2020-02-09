@@ -439,14 +439,12 @@ h6 a:hover{
 	color: #fff;
 	font-family: 'Montserrat-Regular';
 	font-weight: bold;
-	margin-bottom: 5px;
-	margin-top: 5px;
 	font-size: 20px;
 	text-align: center;
 	letter-spacing: 1px;
+    margin: 5px 10px;
 }
 .compas-desc{
-	text-align: left;
 	display: block;
 	color: #838383;
 	font-family: 'CrinsonText-Roman';
@@ -508,7 +506,7 @@ h6 a:hover{
 	font-family: 'CrimsonText-Roman';
 	display: block;
 	padding-bottom: 8px;
-    margin: 15px 15px 15px;
+    margin: 10px 0px 5px 10px;
     width: 80%;
 }
 .blog-info h5{
@@ -516,16 +514,15 @@ h6 a:hover{
 	font-size: 18px;
 	font-weight: bold;
 	font-family: 'Montserrat-Regular';
-	margin: 10px;
+	margin: 0 10px 0;
 }
 .blog-info p{
 	font-family: 'CrimsonText-Roman';
 	font-size: 16px;
-	line-height: 20px;
+	line-height: 18px;
 	letter-spacing: 1px;
 	color: rgba(255, 255, 255, 0.6);
-	margin-left: 10px;
-	margin-right: 10px;
+	margin: 5px 10px 5px 10px;
 }
 /*Blog end*/
 /*Clients Start*/

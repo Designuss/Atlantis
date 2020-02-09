@@ -50,8 +50,7 @@
 		display: none;
 	}
 	.compas-question{
-    	margin-bottom: 20px;
-    	margin-top: 20px;
+		margin: 20px 7px;
 	}
 }
 @media (min-width: 576px) and (max-width: 767px){
@@ -80,8 +79,7 @@
 		display: none;
 	}
 	.compas-question{
-    	margin-bottom: 20px;
-    	margin-top: 20px;
+		margin: 20px 7px;
 	}
 }
 @media (max-width: 767px){
@@ -131,8 +129,7 @@
 		display: none;
 	}
 	.compas-question{
-    	margin-bottom: 20px;
-    	margin-top: 20px;
+		margin: 20px 7px;
 	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -182,5 +179,8 @@
 	}
 	.portfolio_btns {
 		width: 33%;
+	}
+	.blog_gallery{
+		width: 80%;
 	}
 }
