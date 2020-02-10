@@ -162,7 +162,6 @@ h6 a:hover{
 	max-height: 0;
 	font-size: 0;
 	transition: .5s all;
-    border-bottom-left-radius: 25%;
 }
 .hb-menu a{
 	display: block;
@@ -629,7 +628,7 @@ h6 a:hover{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 50%;
+	width: 45%;
 	margin: 20px 0 100px;
 }
 .clients img{
