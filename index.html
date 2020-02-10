@@ -11,29 +11,49 @@
   <link rel="stylesheet" href="styles/slider.css">
   <link rel="stylesheet" href="styles/media.css">
   <link rel="stylesheet" href="fontawesome-free-5.12.0/css/all.min.css">
-</head><!-- 
+  <script src="libs/jquery.min.js"></script>
+</head>
 <header class="hat">
 	<div class="hat_logo">
 		<img src="img/logo.png" alt="logo">
 		<span><a href=""> Atlantida</a></span>
 	</div>
 	<ul class="hat_menu">
-		<li><a href="">Home</a></li>
-		<li><a href="">About</a></li>
-		<li><a href="">Services</a></li>
-		<li><a href="">History</a></li>
-		<li><a href="">Team</a></li>
-		<li><a href="">Portfolio</a></li>
-		<li><a href="">Prices</a></li>
-		<li><a href="">Blog</a></li>
-		<li><a href="">Contact</a></li>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="#about">About</a></li>
+		<li><a href="#services">Services</a></li>
+		<li><a href="#history">History</a></li>
+		<li><a href="#team">Team</a></li>
+		<li><a href="#portfolio">Portfolio</a></li>
+		<li><a href="#prices">Prices</a></li>
+		<li><a href="#blog">Blog</a></li>
+		<li><a href="#contact">Contact</a></li>
 	</ul>
   <ul class="hat_social">
-   <li><a href="">f</a></li>
-   <li><a href="">tw</a></li>
-   <li><a href="">Be</a></li>
+   <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+   <li><a href=""><i class="fab fa-twitter"></i></a></li>
+   <li><a href=""><i class="fab fa-instagram"></i></a></li>
  </ul>
-</header> -->
+ <div class="hamburger-wrap">
+   <input type="checkbox" id="check-menu">
+   <label for="check-menu"></label>
+   <div class="burger-line hb-first"></div>
+   <div class="burger-line hb-second"></div>
+   <div class="burger-line hb-third"></div>
+   <div class="burger-line hb-fourth"></div>
+   <nav class="hb-menu">
+     <a href="index.html">Home</a>
+     <a href="#about">About</a>
+     <a href="#services">Services</a>
+     <a href="#history">History</a>
+     <a href="#team">Team</a>
+     <a href="#portfolio">Portfolio</a>
+     <a href="#prices">Prices</a>
+     <a href="#blog">Blog</a>
+     <a href="#contact">Contact</a>
+   </nav>
+ </div>
+</header>
 <body>
   <div class="slider">
     <div class="slider__wrapper">
@@ -89,7 +109,7 @@
   </div>
   <!-- Slider END -->
   <!-- About US -->
-  <div class="about_us_wrap">
+  <div class="about_us_wrap" id="about">
    <div class="about_us">
      <div class="about_us_img"></div>
      <h2>About US</h2>
@@ -133,7 +153,7 @@
   </div>
 </div>
 <!--  -->
-<div class="services_wrap">
+<div class="services_wrap" id="services">
   <h3>Services</h3>
   <img src="img/white_line.png" alt="">
   <h4>Donec aliquet, ipsum ut lobortis facilisis, nisi ligula aliquam odio, ut vehicula odio lorem in erat. Quisque quam ipsum, commodo non condimentum a, fermentum id sapien. Pellentesque sit amet sem neque. </h4>
@@ -161,13 +181,13 @@
   </div>
 </div>
 <!--  -->
-<div class="history_wrap">
+<div class="history_wrap" id="history">
   <h2>History</h2>
   <img src="img/black_line.png" alt="">
   <h4>In pulvinar, mi at rhoncus condimentum, turpis nisl scelerisque turpis, ut gravida eros tortor non arcu. In eget arcu ante. </h4>
 </div>
 <!--  -->
-<div class="our_team_wrap">
+<div class="our_team_wrap" id="team">
   <h2>Our Team</h2>
   <img src="img/black_line.png" alt="">
   <h4>Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. <br>Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</h4>
@@ -210,7 +230,7 @@
     </div>
   </div>
 </div>
-<div class="portfolio_wrap">
+<div class="portfolio_wrap" id="portfolio">
   <h2>Portfolio</h2>
   <img src="img/black_line.png" alt="">
   <h4>Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. <br>Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</h4>
@@ -233,7 +253,7 @@
     <img src="img/portfolio/Untitled-8.png" alt="">
   </div>
 </div>
-<div class="prices_wrap">
+<div class="prices_wrap" id="prices">
   <h2>Prices</h2>
   <img src="img/black_line.png" alt="">
   <h4>Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. <br> Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</h4>
@@ -276,7 +296,7 @@
   Etiam iaculis, nibh a lobortis egestas, est urna sodales</span></p>
   <a href="" class="compas_btn">Purchase</a>
 </div>
-<div class="blog_wrap">
+<div class="blog_wrap" id="blog">
   <h2>Blog</h2>
   <img src="img/black_line.png" alt="">
   <h4>Nullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus. <br>Phasellus iaculis ultricies duiNullam lobortis, turpis lobortis placerat vehicula, ipsum lacus bibendum dolor, sit amet pretium odio magna eget risus.</h4>
@@ -322,8 +342,18 @@
   </div>
 </div><!-- 
 <iframe src="https://snazzymaps.com/embed/217740" width="100%" height="600px" style="border:none;"></iframe> -->
+  <script>
+    $(document).ready(function(){
+  // плавное перемещение страницы к нужному блоку
+  $("ul li a").click(function () {
+    elementClick = $(this).attr("href");
+    destination = $(elementClick).offset().top;
+    $("body,html").animate({scrollTop: destination }, 800);
+  });
+});
+  </script>
 <footer>
-  <div class="footer-wrap">
+  <div class="footer-wrap" id="contact">
     <div class="f-logo"><img src="img/footer_logo.png" alt=""> <span>Atlantis</span></div>
     <div class="f-content">
       <div class="contact-info">
