@@ -35,7 +35,7 @@ h4{
 	font-family: 'CrimsonText-Roman';
 	font-size: 14px;
 	letter-spacing: 1px;
-	padding: 35px 30px 35px 30px;
+	padding: 35px 30px;
 	text-align: center;
 	color: #3e3d3dab;
 	margin: 0;
@@ -85,13 +85,13 @@ h6 a:hover{
 }
 .hat_social li:nth-child(even){
 	margin: 0 5px;
-	padding: 0 5px;
+	padding: 0 8px;
 	border-left: 1px solid #757575;
 	border-right: 1px solid #757575;
 }
 .hat_menu li,
 .hat_social li{
-	padding: 0 3px 0 3px;
+	padding: 0 8px;
 }
 .hat_menu li a:hover,
 .hat_social li a:hover{
@@ -291,23 +291,52 @@ h6 a:hover{
 .services_box{
 	width: 20%;
 	border: solid 1px #898989;
+	border-top: 0;
 	color: #cfcfcf;
 	box-sizing: border-box;
 	/*max-height: 350px;*/
 	margin-bottom: 85px;
+	position: relative;
+}
+.services_box img{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.services_box::before {
+  content: "";
+  position: absolute;
+  display: block;
+  left: -1px;
+  top: 0;
+  background-color: #898989;
+  width: 33%;
+  height: 1px;
+}
+
+.services_box::after {
+  content: "";
+  position: absolute;
+  display: block;
+  right: -1px;
+  top: 0px;
+  background-color: #898989;
+  width: 33%;
+  height: 1px;
 }
 .services_box p{
 	font-size: 13px;
 	font-family: 'Montserrat-Regular';
 	font-weight: bold;
 	letter-spacing: 2px;
+    margin-top: 25px;
 }
 .services_box span{
 	font-size: 14px;
 	font-family: 'CrimsonText-Roman';
-	padding-right: 24px;
-	padding-left: 24px;
-	padding-bottom: 15px;
+	padding: 25px 25px;
+	padding-top: 0;
 	display: block;
 	letter-spacing: 1px;
 }
@@ -413,12 +442,12 @@ h6 a:hover{
 	padding-top: 40px;
 }
 .portfolio_btns{
-	width: 30%;
+	width: 10%;
 	display: flex;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
-	margin-bottom: 65px;
-	margin-top: 50px;
+	margin-bottom: 45px;
+	margin-top: 30px;
 }
 .portfolio_btns a{
 	display: block;
@@ -496,6 +525,7 @@ h6 a:hover{
 	display: block;
 	font-weight: bold;
 	border: 2px solid #3e3d3d;
+	color: #3e3d3d;
 	line-height: 30px;
 	margin-left: 25%;
 	margin-right: 25%;
@@ -581,7 +611,7 @@ h6 a:hover{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	width: 100%;
+	width: 80%;
 }
 .blog-info{
 	width: 25%;
@@ -702,3 +732,9 @@ h6 a:hover{
     font-weight: bold;
 }
 /*footer end*/
+.copyright{
+	text-align: center;
+	color: #aaa;
+    font-family: 'arial';
+    font-size: 10px;
+}
