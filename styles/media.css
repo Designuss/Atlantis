@@ -72,6 +72,9 @@
 		font-size: 24px;
 		letter-spacing: 2px;
 	}
+	.history-content{
+		width: 95%;
+	}
 }
 @media (min-width: 576px) and (max-width: 767px){
 	.services_box{
@@ -110,6 +113,9 @@
 	}
 	.hb-menu{
     	border-bottom-left-radius: 25%;
+	}
+	.history-content{
+		width: 95%;
 	}
 }
 @media (max-width: 767px){
@@ -161,6 +167,10 @@
 	.services_box span{
 		letter-spacing: 0.3px;
 		padding: 15px 15px;
+	}
+	.history_blocks div{
+		width: 100%;
+		margin-top: 30px;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px){
@@ -214,6 +224,10 @@
 	.hat_social li {
     padding: 0 4px;
 	}
+	.history_blocks div{
+		width: 100%;
+		margin-top: 30px;
+	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
 	.services_boxes-wrap{
@@ -264,6 +278,10 @@
 	}
 	.portfolio_btns{
 		width: 45%;
+	}
+	.history_blocks div{
+		width: 100%;
+		margin-top: 20px;
 	}
 }
 @media (min-width: 1200px){
