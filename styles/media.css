@@ -117,6 +117,9 @@
 	.history-content{
 		width: 95%;
 	}
+	.our_team_block {
+    	width: 27%;
+    }
 }
 @media (max-width: 767px){
 	.pf-img img{
