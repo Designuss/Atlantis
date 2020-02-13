@@ -76,7 +76,8 @@
 		width: 95%;
 	}
 	.clients img {
-    	width: 14%;
+    	width: 16%;
+    	max-height: 75px;
 	}
 }
 @media (min-width: 576px) and (max-width: 767px){
