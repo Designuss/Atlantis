@@ -76,7 +76,8 @@
 		width: 95%;
 	}
 	.clients img {
-    width: 16%;
+    	width: 14%;
+	}
 }
 @media (min-width: 576px) and (max-width: 767px){
 	.services_box{
