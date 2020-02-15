@@ -191,6 +191,12 @@
 	.blog-content form{
 		width: 90%;
 	}
+	.coments{
+		width: 100%;
+	}
+	.wrap{
+		width: 90%;
+	}
 }
 @media (min-width: 768px) and (max-width: 991px){
 	.services_box{
@@ -256,8 +262,17 @@
 	.wrap{
 		width: 90%;
 	}
+	.coments{
+		width: 100%;
+	}
+	.wrap{
+		width: 85%;
+	}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+	.wrap{
+		width: 80%;
+	}
 	.services_boxes-wrap{
 		width: 80%;
 	}
@@ -310,6 +325,9 @@
 	.history_blocks div{
 		width: 100%;
 		margin-top: 20px;
+	}
+	.footer-wrap {
+    	width: 90%;
 	}
 }
 @media (min-width: 1200px){

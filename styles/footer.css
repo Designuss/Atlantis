@@ -60,7 +60,8 @@ h6 a:hover{
 }
 .f-content form input{
 	width: 45%;
-	max-height: 52px;
+    line-height: 35px;
+	max-height: 44px;
 	background-color: rgba(255, 255, 255, 0);
 	border: solid 2px #464646;
 	margin-top: 5px;

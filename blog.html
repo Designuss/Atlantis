@@ -6,8 +6,7 @@
   <title>Blog</title>
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/footer.css">
-  <link rel="stylesheet" href="styles/blog.css">
-  <link rel="stylesheet" href="styles/slider.css">
+  <link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="styles/stylesheet.css">
   <link rel="stylesheet" href="styles/media.css">
   <link rel="stylesheet" href="fontawesome-free-5.12.0/css/all.min.css">
@@ -53,7 +52,7 @@
    </nav>
  </div>
 </header>
-<body>
+<body class="blog-body">
   <div class="header-bg">
     <h1>POST WITH SIDEBAR</h1>
     <img src="img/white_line.png" alt="">
@@ -93,7 +92,7 @@
           <h5>Brian Smith</h5>
           <span>02 November 2015 at 11:00pm</span>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quas molestias numquam magnam dolorum consequatur, omnis eius. Iste nam dolore vero suscipit atque tempora a libero, consequuntur, aperiam odit dicta!</p>
-                <span class="reply"><i class="fas fa-reply"></i> Reply</span>
+          <span class="reply"><i class="fas fa-reply"></i> Reply</span>
           <div class="answer">
             <div class="comments">
               <img src="img/user-avatars/Angela-Roberts.png" alt="">
@@ -105,15 +104,15 @@
               </div>
             </div>
           </div>
-          </div>
         </div>
+      </div>
       <div class="comments">
         <img src="img/user-avatars/Brian-Smith.png" alt="">
         <div class="comment">
           <h5>Brian Smith</h5>
           <span>02 November 2015 at 11:00pm</span>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quas molestias numquam magnam dolorum consequatur, omnis eius. Iste nam dolore vero suscipit atque tempora a libero, consequuntur, aperiam odit dicta!</p>
-                <span class="reply"><i class="fas fa-reply"></i> Reply</span>
+          <span class="reply"><i class="fas fa-reply"></i> Reply</span>
           <div class="answer">
             <div class="comments">
               <img src="img/user-avatars/Angela-Roberts.png" alt="">
@@ -125,100 +124,115 @@
               </div>
             </div>
           </div>
-          </div>
-        </div>
-          <form action="" method="post">
-            <input type="text" placeholder="Name*" required>
-            <input type="email" placeholder="Email*" required>
-            <input type="number" placeholder="Number*" required>
-            <input type="text" placeholder="Website">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Message" required></textarea>
-            <input type="submit" value="Submit" class="submit-btn">
-          </form>
-      </div>
-      <div class="right-sidebar">
-        <input type="search" class="search" placeholder="Search">
-        <h2>Latest posts</h2>
-        <ul class="posts">
-          <li class="clearfix">
-            <img src="img/blog/post1.jpg" alt="">
-            <h5>sit amet pretium odio magna ege</h5>
-            <p>Nullam lobortis, turpis lobortis placerat vehicula, ipsum</p>
-          </li>
-          <li class="clearfix">
-            <img src="img/blog/post2.jpg" alt="">
-            <h5>sit amet pretium odio magna ege</h5>
-            <p>Nullam lobortis, turpis lobortis placerat vehicula, ipsum</p>
-          </li>
-          <li class="clearfix">
-            <img src="img/blog/post3.jpg" alt="">
-            <h5>sit amet pretium odio magna ege</h5>
-            <p>Nullam lobortis, turpis lobortis placerat vehicula, ipsum</p>
-          </li>
-          <li class="clearfix">
-            <img src="img/blog/post4.jpg" alt="">
-            <h5>sit amet pretium odio magna ege</h5>
-            <p>Nullam lobortis, turpis lobortis placerat vehicula, ipsum</p>
-          </li>
-        </ul>
-        <h2>Categories</h2>
-        <ul class="categories">
-          <li><a href="">Photography</a></li>
-          <li><a href="">Website Design</a></li>
-          <li><a href="">Branding</a></li>
-          <li><a href="">Flyers</a></li>
-          <li><a href="">Uncategories</a></li>
-          <li><a href="">Category 22</a></li>
-        </ul>
-        <h2>Archives</h2>
-        <ul class="archives">
-          <li><a href="">January 2015</a></li>
-          <li><a href="">December 2015</a></li>
-          <li><a href="">November 2015</a></li>
-          <li><a href="">October 2015</a></li>
-          <li><a href="">September 2015</a></li>
-        </ul>
-        <h2>FLICKR PHOTOS</h2>
-        <div class="photos">
-          <ul>
-            <li><img src="img/blog/post1.jpg" alt=""></li>
-            <li><img src="img/blog/post2.jpg" alt=""></li>
-            <li><img src="img/blog/post3.jpg" alt=""></li>
-          </ul>
-          <ul>
-            <li><img src="img/blog/post3.jpg" alt=""></li>
-            <li><img src="img/blog/post4.jpg" alt=""></li>
-            <li><img src="img/blog/post2.jpg" alt=""></li>
-          </ul>
         </div>
       </div>
+      <form action="" method="post">
+        <input type="text" placeholder="Name*" required>
+        <input type="email" placeholder="Email*" required>
+        <input type="number" placeholder="Number*" required>
+        <input type="text" placeholder="Website">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Message" required></textarea>
+        <input type="submit" value="Submit" class="submit-btn">
+      </form>
     </div>
-    <script src="js/slider.js"></script>
-    <script src="libs/jquery.min.js"></script>
-  </body>
-  <footer>
-    <div class="footer-wrap" id="contact">
-      <div class="f-logo"><img src="img/footer_logo.png" alt=""> <span>Atlantis</span></div>
-      <div class="f-content">
-        <div class="contact-info">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut quidem eveniet perferendis aperiam dicta veniam minima libero consequuntur officia, debitis, ab eligendi, nihil sapiente similique ullam perspiciatis doloribus id eaque.</p>
-          <h6>ATLANTIDA STUDIO</h6>
-          <p>Steven Bernson, Attorney at Law 
-            1556 Broadway, suite 416 
-          New York, NY, 10120, USA </p>
-          <h6>E-mail: <a href="mailto:elegantflyers@gmail.com">elegantflyers@gmail.com</a> <br>
-            <a href="tel:+84956654972">+84 (956) 654 972</a></h6>
+    <div class="right-sidebar">
+      <input type="search" class="search" placeholder="Search">
+      <h2>Latest posts</h2>
+      <ul class="posts">
+        <li class="clearfix">
+          <img src="img/blog/post1.jpg" alt="">
+          <h5>sit amet pretium odio magna ege</h5>
+          <p>Nullam lobortis, turpis lobortis placerat vehicula, ipsum</p>
+        </li>
+        <li class="clearfix">
+          <img src="img/blog/post2.jpg" alt="">
+          <h5>sit amet pretium odio magna ege</h5>
+          <p>Nullam lobortis, turpis lobortis placerat vehicula, ipsum</p>
+        </li>
+        <li class="clearfix">
+          <img src="img/blog/post3.jpg" alt="">
+          <h5>sit amet pretium odio magna ege</h5>
+          <p>Nullam lobortis, turpis lobortis placerat vehicula, ipsum</p>
+        </li>
+        <li class="clearfix">
+          <img src="img/blog/post4.jpg" alt="">
+          <h5>sit amet pretium odio magna ege</h5>
+          <p>Nullam lobortis, turpis lobortis placerat vehicula, ipsum</p>
+        </li>
+      </ul>
+      <h2>Categories</h2>
+      <ul class="categories">
+        <li><a href="">Photography</a></li>
+        <li><a href="">Website Design</a></li>
+        <li><a href="">Branding</a></li>
+        <li><a href="">Flyers</a></li>
+        <li><a href="">Uncategories</a></li>
+        <li><a href="">Category 22</a></li>
+      </ul>
+      <h2>Archives</h2>
+      <ul class="archives">
+        <li><a href="">January 2015</a></li>
+        <li><a href="">December 2015</a></li>
+        <li><a href="">November 2015</a></li>
+        <li><a href="">October 2015</a></li>
+        <li><a href="">September 2015</a></li>
+      </ul>
+      <h2>FLICKR PHOTOS</h2>
+      <div class="flickr-photos">
+
+        <div class="fl-photos-row">
+          <div class="fl-photos">
+            <a href=""><img src="img/blog/post1.jpg" alt="#"></a>
           </div>
-          <form action="" method="post">
-            <input type="text" placeholder="Name*" required>
-            <input type="email" placeholder="Email*" required>
-            <input type="number" placeholder="Number*" required>
-            <input type="text" placeholder="Website">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Message" required></textarea>
-            <input type="submit" value="Submit" class="submit-btn">
-          </form>
+          <div class="fl-photos">
+            <a href=""><img src="img/blog/post2.jpg" alt="#"></a>
+          </div>
+          <div class="fl-photos">
+            <a href=""><img src="img/blog/post3.jpg" alt="#"></a>
+          </div>
         </div>
-        <p class="copyright"> Copyright © More Vladyslav 2020 | Все права защищены!</p>
+
+        <div class="fl-photos-row">
+          <div class="fl-photos">
+           <a href=""><img src="img/blog/post4.jpg" alt="#"></a>
+         </div>
+         <div class="fl-photos">
+          <a href=""><img src="img/blog/post1.jpg" alt="#"></a>
+        </div>
+        <div class="fl-photos">
+          <a href=""><img src="img/blog/post2.jpg" alt="#"></a>
+        </div>
       </div>
-    </footer>
-    </html>
+
+    </div>
+
+  </div>
+</div>
+<script src="libs/jquery.min.js"></script>
+</body>
+<footer>
+  <div class="footer-wrap" id="contact">
+    <div class="f-logo"><img src="img/footer_logo.png" alt=""> <span>Atlantis</span></div>
+    <div class="f-content">
+      <div class="contact-info">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut quidem eveniet perferendis aperiam dicta veniam minima libero consequuntur officia, debitis, ab eligendi, nihil sapiente similique ullam perspiciatis doloribus id eaque.</p>
+        <h6>ATLANTIDA STUDIO</h6>
+        <p>Steven Bernson, Attorney at Law 
+          1556 Broadway, suite 416 
+        New York, NY, 10120, USA </p>
+        <h6>E-mail: <a href="mailto:elegantflyers@gmail.com">elegantflyers@gmail.com</a> <br>
+          <a href="tel:+84956654972">+84 (956) 654 972</a></h6>
+        </div>
+        <form action="" method="post">
+          <input type="text" placeholder="Name*" required>
+          <input type="email" placeholder="Email*" required>
+          <input type="number" placeholder="Number*" required>
+          <input type="text" placeholder="Website">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Message" required></textarea>
+          <input type="submit" value="Submit" class="submit-btn">
+        </form>
+      </div>
+      <p class="copyright"> Copyright © More Vladyslav 2020 | Все права защищены!</p>
+    </div>
+  </footer>
+  </html>
