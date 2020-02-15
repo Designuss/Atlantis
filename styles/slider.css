@@ -24,6 +24,8 @@
     .slider__item {
       flex: 0 0 100%;
       max-width: 100%;
+      height: 635px; 
+      position: relative;
     }
 
     /* стили для кнопок "вперед" и "назад" */
@@ -113,11 +115,6 @@
 
     .slider__indicators li.active {
       background-color: #fff;
-    }
-
-    .slider__item {
-      height: 635px;
-      position: relative;
     }
 
     .slider__item_1 {
