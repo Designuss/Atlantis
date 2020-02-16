@@ -119,7 +119,7 @@
 
     .slider__item_1 {
       /*background: linear-gradient(45deg, #085078 10%, #85d8ce 90%);*/
-      background-image: url(../img/slider_image.png);
+      background-image: url(../img/slider_image.jpg);
       background-size: cover;
       background-repeat: no-repeat; 
     }
