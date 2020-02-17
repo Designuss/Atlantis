@@ -859,6 +859,12 @@ h4{
 .posts li{
 	border-top: 1px solid #aaa;
 }
+.posts li a{
+	color: #3e3d3d;
+}
+.posts li:hover h5{
+	text-decoration: underline;
+}
 .posts img{
 	float: left;
 	display: block;
