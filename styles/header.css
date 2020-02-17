@@ -112,7 +112,7 @@ header{
 	left: 0;
 	transform: translateY(100%);
 	z-index: 1;
-	background-color: #5d5d5ded;
+	background-color: #baeeeec2;
 	overflow: hidden;
 	max-height: 0;
 	font-size: 0;
@@ -121,8 +121,13 @@ header{
 .hb-menu a{
 	display: block;
 	width: 100%;
-	border-top: 1px solid #bbb;
+	border-top: 1px solid #fff;
+	color: #616161;
 	padding: 10px;
+	cursor: pointer;
+}
+.hb-menu a:hover{
+	background-color: #14EACE;
 }
 #check-menu:checked ~ .hb-menu{
 	max-height: 500px;

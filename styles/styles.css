@@ -316,7 +316,7 @@ h4{
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	background-image: url(../img/sky_bg.png);
+	background-image: url(../img/sky_bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -747,6 +747,39 @@ h4{
 	border-radius: 50%;
 	margin: 20px 10px;
 	position: relative;
+	transition: all .5s;
+	cursor: pointer;
+}
+.social-links li i{
+	transition: all .5s;
+}
+.social-links li.twitter:hover{
+	box-shadow: 0 0 10px 4px #42D9FF;
+	border-color: #42D9FF;
+}
+.social-links li.facebook:hover{
+	box-shadow: 0 0 10px 4px #002aff;
+	border-color: #002aff;
+}
+.social-links li.youtube:hover{
+	box-shadow: 0 0 10px 4px #ED0E0E;
+	border-color: #ED0E0E;
+}
+.social-links li.google-plus:hover{
+	box-shadow: 0 0 10px 4px #F4A600;
+	border-color: #F4A600;
+}
+.social-links li:hover i.fa-youtube{
+	color: #ED0E0E;
+}
+.social-links li:hover i.fa-facebook-f{
+	color: #002aff;
+}
+.social-links li:hover i.fa-twitter{
+	color: #42D9FF;
+}
+.social-links li:hover i.fa-google-plus-g{
+	color: #F4A600;
 }
 .social-links i{
 	position: absolute;
